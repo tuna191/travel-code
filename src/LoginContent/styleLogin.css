@@ -1,0 +1,63 @@
+.loginContent{
+background-color: #E6E4EB;
+width: 100%;
+height: 100vh;
+display: flex;
+justify-content: center;
+}
+.close{
+    text-decoration: none;
+    color: black;
+    float: right;
+    font-size: 24px;
+    margin: 10px;
+}
+.error{
+    text-align: center;
+    font-family: 'Mochiy Pop P One';
+    font-size: 22px;
+    margin: 12px 
+}
+.loginContent--midle{
+background-color: #ECEAEF;
+width: 50%;
+}
+.loginContent--midle h1{
+    font-family: 'Lobster', cursive;
+    font-size: 60px;
+    text-align: center;
+    margin: 50px 0 30px 0;
+    color: #707070;
+}
+.midle__children {
+    display: flex;
+    flex-direction: column;
+}
+.midle__children__input{
+display: flex;
+flex-direction: column;
+margin: 0 120px;
+}
+.midle__children__input label{
+    font-family: 'Lobster', cursive;
+    font-size: 30px;
+    margin: 10px 0;
+
+}
+.midle__children__input input{
+    padding: 15px;
+    margin: 10px 0 15px 0;
+    border-radius: 22px;
+    border: none;
+    background-color: white;
+}
+.midle__children .submit{
+    background-image: linear-gradient(#4BB7FF, #8300F5);
+    width: 30%;
+    margin: auto;
+    padding: 10px;
+    border: none;
+    border-radius: 17px;
+    color: white;
+}
+/* font-family: 'Open Sans', sans-serif; font-family: 'Lobster', cursive;*/

@@ -1,0 +1,70 @@
+.recommentHotel__head h2{
+    font-size: 35px;
+    margin: 10px;
+    font-family: 'Lobster', cursive;
+    text-align: center;
+
+}
+.recommentHotel__head hr{
+    margin: 30px 0 40px 0;
+}
+.recommentHotel{
+    margin: 70px 0;
+}
+.recommentHotel__content {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.content__img__children{
+    width: 32%;
+    background-color: white;
+    border: 1px solid #706464;
+}
+.content__img{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+.content__img__children .img img{
+    width: 100%;
+    height: 250px;
+}
+.img__dec{
+    margin-left: 7px;
+}
+.img__dec h3{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    margin: 8px 0;
+}
+.img__dec h2{
+    font-family: 'Lobster', cursive;
+    font-size: 18px;
+    margin: 10px 0;
+
+}
+
+.img__icon{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.img__icon span{
+    font-size: 11px;
+}
+.img__icon h3{
+    font-family: 'Open Sans', sans-serif;
+}
+.content__input{
+    font-family: 'Lobster', cursive;
+    font-size: 15px;
+    margin-left: 15px;
+}
+.content__input input{
+    width: 81%;
+    padding: 10px;
+    margin: 36px 0;
+    border: 5px solid #525151;
+    border-radius: 16px;
+}

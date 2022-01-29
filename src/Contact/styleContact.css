@@ -1,0 +1,51 @@
+.contact{
+    display: flex;
+    flex-direction: column;
+    margin-left: 40px;
+    margin-top: 130px;
+}
+.contact h1{
+    font-family: 'Lobster', cursive;
+    font-size: 46px;
+    margin: 15px 0;
+}
+.contact h3{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+    margin: 10px 0;
+
+}
+.contact__icon_children{
+    flex-direction: row;
+    display: flex;
+    align-items: center;
+
+}
+.contact__icon_children h4{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+
+}
+.contact__icon_children span{
+    font-size: 22px;
+    margin-right: 17px;
+}
+.contact input{
+    width: 60%;
+    padding: 18px;
+    margin-top: 17px;
+    border-radius: 16px;
+
+}
+.contact button{
+    width: 15%;
+    padding: 10px;
+    margin: 10px 0 20px 0;
+    background: black;
+    color: wheat;
+    font-size: 17px;
+    border-radius: 20px;
+    border: none;
+    cursor: pointer;
+}
+/* font-family: 'Open Sans', sans-serif; font-family: 'Lobster', cursive;*/

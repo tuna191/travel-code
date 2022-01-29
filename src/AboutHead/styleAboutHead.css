@@ -1,0 +1,18 @@
+.aboutHead__img{
+    width: 100%;
+    position: relative;
+}
+.aboutHead__img img{
+    width: 100%;
+}
+.aboutHead__text{
+    position: absolute;
+    top:50%;
+    left: 10%;
+
+}
+.aboutHead__text h1{
+    font-family: 'Lobster', cursive;
+    font-size: 60px;
+}
+/* font-family: 'Open Sans', sans-serif; */
